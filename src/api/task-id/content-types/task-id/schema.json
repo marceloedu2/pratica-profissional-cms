@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tasks",
+  "info": {
+    "singularName": "task-id",
+    "pluralName": "tasks",
+    "displayName": "Task"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "priority_id": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::priority-id.priority-id"
+    },
+    "stage_id": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::stage-id.stage-id"
+    },
+    "user_id": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "task_type_id": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::task-type-id.task-type-id"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "task_types",
+  "info": {
+    "singularName": "task-type-id",
+    "pluralName": "task-types",
+    "displayName": "TaskType"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    }
+  }
+}
