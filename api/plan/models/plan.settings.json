@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plans",
+  "info": {
+    "name": "Plan"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "value": {
+      "type": "integer"
+    },
+    "mb": {
+      "type": "integer"
+    }
+  }
+}

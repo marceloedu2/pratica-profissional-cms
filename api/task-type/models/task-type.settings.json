@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "task_types",
+  "info": {
+    "name": "TaskType"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "priorities",
+  "info": {
+    "name": "Priority",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    }
+  }
+}

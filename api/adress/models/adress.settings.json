@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "adresses",
+  "info": {
+    "name": "Adress"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "countrie": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "complement": {
+      "type": "text"
+    },
+    "neighborhood": {
+      "type": "text"
+    },
+    "street": {
+      "type": "text"
+    }
+  }
+}
