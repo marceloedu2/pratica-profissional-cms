@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "stages",
   "info": {
-    "name": "Stage"
+    "name": "Stage",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -16,6 +17,9 @@
     },
     "color": {
       "type": "string"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }

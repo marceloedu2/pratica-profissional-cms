@@ -30,6 +30,9 @@
     "user": {
       "plugin": "users-permissions",
       "model": "user"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }
