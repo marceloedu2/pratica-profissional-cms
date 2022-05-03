@@ -29,7 +29,8 @@
     },
     "user": {
       "plugin": "users-permissions",
-      "model": "user"
+      "model": "user",
+      "via": "tasks"
     },
     "order": {
       "type": "integer"
